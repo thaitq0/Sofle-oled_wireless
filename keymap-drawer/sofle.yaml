@@ -3,7 +3,7 @@ layers:
   jerry: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
     LEFT CONTROL, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LEFT CONTROL, LALT, LGUI, raise, SPACE, ENTER, lower, RCTRL, RALT, RGUI]
   lower:
-  - {t: ▽, type: trans}
+  - ESC
   - F1
   - F2
   - F3
@@ -29,8 +29,8 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - (
-  - '@'
-  - '#'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - $
   - '%'
   - ^
@@ -77,22 +77,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INS
-  - '&msc SCRL_UP'
-  - '&msc SCRL_UP'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&hold_ctrl LEFT'
+  - '&hold_alt UP'
+  - '&hold_ctrl RIGHT'
+  - '&hold_ctrl UP_ARROW'
   - PG UP
-  - '&mkp LCLK'
+  - ''
   - UP
-  - '&mkp RCLK'
-  - '0'
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&hold_alt LEFT'
+  - '&hold_alt DOWN'
+  - '&hold_alt RIGHT'
   - CLCK
   - PG DN
   - LEFT
@@ -101,10 +101,10 @@ layers:
   - DEL
   - BSPC
   - {t: ▽, type: trans}
-  - AC UNDO
-  - AC CUT
-  - AC COPY
-  - AC PASTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
