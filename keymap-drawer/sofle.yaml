@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, '`', Q, W, E, R, T, Y, U, I, O, P, DELETE, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LEFT CONTROL, LALT, LGUI, raise, SPACE, ENTER, lower, RCTRL, RALT, RGUI]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;,
+    '''', LEFT CONTROL, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LEFT CONTROL, LALT, LGUI, raise, SPACE, ENTER, lower, RCTRL, RALT, RGUI]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -16,27 +16,27 @@ layers:
   - F10
   - F11
   - CAPSLOCK
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '{'
+  - '}'
+  - UP ARROW
+  - '-'
+  - _
   - F12
   - {t: ▽, type: trans}
-  - '!'
+  - (
   - '@'
   - '#'
   - $
   - '%'
   - ^
-  - '&'
-  - KP MULTIPLY
-  - (
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - )
   - '|'
   - {t: ▽, type: trans}
@@ -64,12 +64,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - ESC
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -78,21 +78,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INS
-  - PSCRN
-  - CMENU
+  - '&msc SCRL_UP'
+  - '&msc SCRL_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
   - UP
-  - {t: ▽, type: trans}
+  - '&mkp RCLK'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
   - CLCK
   - PG DN
   - LEFT
@@ -101,10 +101,10 @@ layers:
   - DEL
   - BSPC
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - W
+  - ''
   - ''
   - ''
   - ''
